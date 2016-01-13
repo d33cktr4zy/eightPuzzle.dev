@@ -7,7 +7,7 @@ membutuhkan : Composer minimal dan PHP 5.5
  
  jika menggunakan XAMPP, buat vhost configuration seperti ini
  
- '''ruby
+ ```apacheconf
  <VirtualHost *:80>
      ServerName 8puzzle.dev
      DocumentRoot "x:\folder\laravel\public"
@@ -20,7 +20,7 @@ membutuhkan : Composer minimal dan PHP 5.5
  		Require all Granted
      </Directory>
  </VirtualHost>
- '''
+ ```
  akses dengan membuka folder
 
 ## Laravel PHP Framework
