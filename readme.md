@@ -1,3 +1,27 @@
+##8Puzzle Solver [PHP Based]
+This is an implementation of 8 Puzzle solver using BFS.
+
+Project ini menggunakan Laravel Framework. Lakukan penginstallan yang ada di https://laravel.com/docs/5.1
+
+membutuhkan : Composer minimal dan PHP 5.5
+ 
+ jika menggunakan XAMPP, buat vhost configuration seperti ini
+ 
+ <VirtualHost *:80>
+     ServerName 8puzzle.dev
+     DocumentRoot "x:\folder\laravel\public"
+     SetEnv APPLICATION_ENV "development"
+     <Directory "D:\sites\eightPuzzle.dev\public">
+         DirectoryIndex index.php
+         AllowOverride All
+         Order allow,deny
+         Allow from all
+ 		Require all Granted
+     </Directory>
+ </VirtualHost>
+ 
+ akses dengan membuka folder
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
